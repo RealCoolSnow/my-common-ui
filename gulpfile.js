@@ -3,7 +3,7 @@ const babel = require('gulp-babel');
 const less = require('gulp-less');
 const autoprefixer = require('gulp-autoprefixer');
 const cssnano = require('gulp-cssnano');
-const through2 = require("through2");
+const through2 = require('through2');
 
 const paths = {
   dest: {
@@ -12,7 +12,7 @@ const paths = {
     dist: 'dist', // umd文件存放的目录名 - 暂时不关心
   },
   styles: 'src/**/*.less', // 样式文件路径 - 暂时不关心
-  scripts: ['src/**/*.{ts,tsx}', '!src/**/demo/*.{ts,tsx}'], // 脚本文件路径
+  scripts: ['src/**/*.{ts,tsx}', '!src/**/demo/*.{ts,tsx}', '!src/**/__tests__/*.{ts,tsx}'], // 脚本文件路径
 };
 
 /**

@@ -38,3 +38,4 @@ doc-site
 .umi-production
 esm
 lib
+__snapshots__
