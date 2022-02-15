@@ -1,7 +1,10 @@
 {
-  "name": "my-common-ui",
+  "name": "@coolsnow/my-common-ui",
   "version": "1.0.1",
   "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
   "main": "lib/index.js",
   "module": "esm/index.js",
   "typings": "lib/index.d.ts",
@@ -28,9 +31,6 @@
     "new": "plop --plopfile ./scripts/plopfile.ts",
     "release": "ts-node ./scripts/release.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.17.2",
     "@babel/plugin-proposal-class-properties": "^7.16.7",
