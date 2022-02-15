@@ -35,3 +35,6 @@ yarn-error.log*
 ####
 doc-site
 .umi
+.umi-production
+esm
+lib
